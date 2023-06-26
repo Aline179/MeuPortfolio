@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: rgb(250, 245, 245);
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagempanoramica {
+    background-image: url(Images/ImagemAline-Apresentacao.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover ;
+    height: 900px;
+    
+}
+.videoribeirinhos {
+    background: url(Video/Rio-Ribeirinhos.gif);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+
+.videoribeirinhos h1 {
+    padding-left: 2rem;
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+    width: 20%;
+    font-size: 80px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+}
+
+.videoribeirinhos h1 span {
+    color: black;
+    font-family: 'Kotta One', serif;
+}
+
+.titleinicial {
+    padding: 0% 10%;
+}
+
+.sessao3 {
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+    padding: 0% 10%;
+    height: 500px;
+}
+
+.sessao3 h2{
+   font-size: 40px;
+   font-family: 'Kotta One', serif;
+   padding-right: 2rem;
+   font-weight: 350;
+   width: 20%;
+   padding-top: 5rem;  
+   
+}
+.sessao4 {
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20rem;
+    padding: 5% 10%;
+}
+
+.sessao4 img{
+    width: 250px;
+    
+}
+
+.sessao4 h2 {
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 350;
+    padding-top: 20px;  
+}
+
+.images-empresas{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.sessao5 {
+    background-color: rgb(233, 233, 233);
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sessao5 h1 {
+    color: black;
+    font-size: 80px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+}
+
+.sessao6{
+    align-items: center;
+    padding: 5% 10%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+   
+    
+}
+
+.canada-experiencia {   
+    display: flex;
+    justify-content: space-between;
+   
+      
+}
+
+.canada-experiencia h2{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.sessao6 h1 {
+    font-size: 40px;
+}
+.sessao6 h2{
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 350;
+    padding-top: 20px;  
+  
+}
+
+.sessao7 {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5% 10%;
+    justify-content: space-around;
+}
+
+.sessao7 img {
+    width: 180px;
+}
+.sessao7 h1{
+    color: black;
+    font-size: 80px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+}
+
+
+.sessao7 h2{
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 350;
+    width: 35%;
+    padding-top: 20px;  
+
+}
+.sessao8  {
+   display: flex;
+   padding: 2% 10%;
+   justify-content: space-around;
+   align-items: center;
+}
+.sessao8 img{
+    width: 450px;
+}
+
+
+.sessao8 h2 {
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 250;
+    padding-top: 20px;  
+}
+
+.sessao9{
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 10%;
+
+}
+.sessao9 h2 {
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 350;
+    width: 30%;
+    padding-top: 20px;  
+
+}
+
+.sessao10{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 23%;
+    align-items: center;
+}
+
+.sessao10 h2{    
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    font-weight: 350;
+    width: 45%;
+}
+
+.sessao10 h1{
+    font-size: 30px;
+    font-weight: 350rem;
+    width: 20%;
+    padding-bottom: 20px;  
+}
+
+.sessao10 img{
+    width: 250px;
+}
+
+.sessao11 {
+    background-color: rgb();
+}
+
+.sessao12 {
+    background-color: rgb(233, 233, 233);
+    padding: 8%;
+  display: flex;
+  justify-content: center;
+}
+.sessao12 h1{
+    color: black;
+    font-size: 80px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+
+}
+
+.sessao13{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 20%;
+    align-items: center;
+}
+
+.sessao13 h2{
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    padding-left: 2rem;
+    font-weight: 350;
+    width: 50%;
+    padding-top: 20px;  
+}
+.sessao13 h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sessao13 img{
+    width: 250px;
+}
+
+.sessao14 {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 5%;
+    align-items: center;
+}
+
+.sessao14-1 {
+    width: 600px;
+}
+.sessao14-2 {
+    width: 350px;
+}
+
+.sessao14-3 {
+    width: 350px;
+}
+
+.sessao14-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sessao15 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+ 
+}
+
+
+.sessao15 p{
+    font-size: 18px;
+    font-family: initial;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sessao15 h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+    padding-left: 2rem;
+
+}
+
+.sessao16 {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.sessao16-1 h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 2rem;
+
+}
+
+.sessao16-2{
+    color: black;
+    font-size: 80px;
+    font-family: 'Kotta One', serif;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 2rem;
+}
+
+
+.sessao16-3 h2{
+    font-size: 30px;
+    font-family: initial;
+    font-weight: 400;
+    width: 80%;
+    
+}
+
+.sessao16-4 h1{
+    font-size: 15px;
+    font-family: initial;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 2rem;
+
+}
+
+.sessao17{
+        display: flex;
+        padding: 2% 10%;
+        justify-content: space-around;
+        align-items: center;
+}
+.sessao17 img{
+         width: 450px;
+}     
+     
+.sessao17 h2 {
+         font-size: 40px;
+         font-family: 'Kotta One', serif;
+         padding-left: 2rem;
+         font-weight: 250;
+         padding-top: 20px;  
+}
+
+.sessao18{
+    background-color: rgb(233, 233, 233);
+    padding: 2% 6%;
+}
+
+.skills{
+	width: 500px;
+	margin: 60px auto;
+	color: #000;
+
+}
+
+.skills li{
+	margin: 20px 0;
+}
+
+.bar{
+	background-color: #e6f1e5;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #0c4606;
+}
+
+.bar span{ 
+	height: 2px;
+	float: left;
+	background-color: #0c4606;
+}
+
+.webdesign { 
+	width: 80%;
+	animation: html 2s;
+}
+
+.microsoft365{
+	width: 93%;
+	animation: css 2s;
+}
+
+.canva{ 
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.figma{ 
+	width: 30%;
+	animation: jquery 2s;
+}
+
+.financas{ 
+	width: 30%;
+	animation: jquery 2s;
+}
+
+@keyframes webdesign{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes microsoft365{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 93%;
+	}
+}
+
+@keyframes canva{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes figma{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+}
+
+@keyframes financas{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
