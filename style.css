@@ -37,19 +37,26 @@ nav ul li a {
     height: 900px;
     
 }
-.videoribeirinhos {
+
+#myVideo {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+
+}
+/* .videoribeirinhos {
     background: url(Video/Rio-Ribeirinhos.gif);
     background-size: cover;
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
-}
+} */
 
 
 .videoribeirinhos h1 {
     padding-left: 2rem;
     position: absolute;
-    margin-top: 20%;
+    margin-top: -20%;
     color: white;
     width: 20%;
     font-size: 80px;
