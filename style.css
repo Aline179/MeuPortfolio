@@ -529,6 +529,198 @@ nav ul li a {
 	}
 }
 
+@media screen and (max-width: 800px){
+    #myVideo {
+        height: 400px;
+    }
+    .videoribeirinhos h1 {
+        font-size: 50px;
+        margin-top: -44%;
+        padding-left: 0;
+        width: 58%;
+    }
+
+    nav ul {
+       
+        font-size: 13px;
+    }
+    .sessao3 h2 {
+        font-size: 26px;
+        width: 89%;
+        padding-top: 14rem;
+    }
+
+    .sessao4 {
+        flex-direction: column;
+    }
+    .sessao4 h2{
+        font-size: 26px;
+
+    }
+    .sessao4 img{
+        width: 160px;
+    }
+
+    .sessao5 {
+        padding: 2rem;
+    }
+    .sessao5 h1{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .sessao6 h2 {
+        font-size: 26px;
+}
+    .sessao6 h1 {
+    font-size: 25px;
+}
+
+    .sessao7{
+        flex-direction: column;
+    }
+
+    .sessao7 h2 {
+        font-size: 26px;
+        font-weight: 350;
+        width: 87%
+     
+}
+    .sessao7 h1 {
+    font-size: 40px;
+
+}
+
+    .sessao7 img {
+    width: 101px;
+
+}
+    .sessao8 h2 {
+    font-size: 22px;
+    padding-bottom: 15%;
+}
+
+    .sessao8{
+    flex-direction: column;
+    padding: 5% 10%;
+}
+    .sessao8 img {
+    width: 250px;
+
+}
+
+.sessao9{
+    flex-direction: column;
+}
+    .sessao9 h2 {
+    font-size: 26px;
+    padding-left: 0;
+    width: 80%;
+   
+}
+    .sessao9 img{
+    width: 200px;
+    }
+
+    .sessao10  {
+    padding: 5% 10%;
+    align-items: center;
+    flex-direction: column;
+       
+}
+    .sessao10 h2 {
+    font-size: 25px;
+    width: 110%;
+
+}
+    .sessao10 h1 {
+    font-size: 15px;
+   text-align: center;
+   width: 100%;
+}
+    .sessao10 img {
+    width: 200px;
+}
+
+    .sessao12 h1{
+    font-size: 35px;
+    }
+
+    .sessao13{
+        flex-direction: column;
+        padding-left: 0%;
+        padding: 5% 9%;
+    }
+    .sessao13 h2{
+    font-size: 25px;        
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+    .sessao13 h1{
+        font-size: 20px;
+    }
+
+    .sessao13 img{
+        width: 150px;
+}
+
+    .sessao14 img{
+        width: 150px;
+    }
+
+    .sessao15{
+        padding: 5% 15%;
+    }
+
+    .sessao15 img{
+        width: 150px;
+    }
+
+    .sessao15 h2{
+        font-size: 25px;
+    }
+
+    .sessao15 p{
+        font-size: 10px;
+    }
+
+    .sessao16 {
+        display: flex;
+        padding: 5% 5%;
+
+    }
+.sessao16-1 h2{
+    font-size: 25px;
+}
+
+.sessao16-3 img{
+    width: 150px;
+}
+
+.sessao16-3 h2 {
+    font-size: 15px;
+}
+
+.sessao16-3 h1 {
+    font-size: 10px;
+}
+.sessao17{
+    flex-direction: column;
+}
+.sessao17 h2 {
+    font-size: 18px;
+   text-align: center;
+}
+.sessao17 img {
+    width: 150px;
+}
+.skills{
+    width: 300px;
+}
+
+}
+
 
 
 
